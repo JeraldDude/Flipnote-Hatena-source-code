@@ -1,11 +1,11 @@
 <html>
 <head>
-    <meta name="upperlink" content="http://flipnote.hatena.com/images/en-gb/ds/theme/camp100618/background.nbf">
-    <link rel="stylesheet" type="text/css" href="http://flipnote.hatena.com/css/ds/camp100618.css">
+    <meta name="upperlink" content="http://flipnote.hatena.com/images/en-gb/ds/theme/{{THEME_FOLDER_NAME}}/background.nbf">
+    <link rel="stylesheet" type="text/css" href="http://flipnote.hatena.com/css/ds/{{THEME_FOLDER_NAME}}.css">
 </head>
 <body>
     <div align="center" class="head">
-        <img src="http://flipnote.hatena.com/images/ds/theme/camp100618/head.ntft" width="218" height="12">
+        <img src="http://flipnote.hatena.com/images/ds/theme/{{THEME_FOLDER_NAME}}/head.ntft" width="218" height="12">
         <div class="prof_out">
             <table width="216" border="0" cellspacing="0" cellpadding="0" class="profbox">
                 <tr>
@@ -23,7 +23,7 @@
                     <td></td>
                 </tr>
                 <tr>
-                    <td class="username">Flipnote Hatena</td>
+                    <td class="username">{{USERNAME}}</td>
                 </tr>
                 <tr>
                     <td>
@@ -32,11 +32,14 @@
                         <img src="http://flipnote.hatena.com/images/ds/spacer.npf" width="3" height="1">
                         <img src="http://flipnote.hatena.com/images/ds/fans.ntft" width="12" height="12">
                         <a href="http://flipnote.hatena.com/ds/v2-eu/user/fans.uls">
-                            <span class="more-f">32</span>
+                            <span class="more-f">{{TOTAL_FANS}}</span>
                         </a><br>
                         <img src="http://flipnote.hatena.com/images/ds/spacer.npf" width="0" height="1">
-                        <span class="star0c">★</span><span class="star0c">18387</span>
-                        <span class="star1c">★</span><span class="star1">8</span>
+                        <span class="star0c">★</span><span class="star0c">{{STAR_YELLOW_USERHASFROMFLIPNOTES}}</span>
+                        <span class="star1c">★</span><span class="star1">{{STAR_GREEN_USERHASFROMFLIPNOTES}}</span>
+                        <span class="star2c">★</span><span class="star1">{{STAR_RED_USERHASFROMFLIPNOTES}}</span>
+                        <span class="star3c">★</span><span class="star1">{{STAR_BLUE_USERHASFROMFLIPNOTES}}</span>
+                        <span class="star4c">★</span><span class="star1">{{STAR_PURPLE_USERHASFROMFLIPNOTES}}</span>
                     </td>
                 </tr>
                 <tr>
@@ -52,14 +55,14 @@
                 </tr>
             </table>
         </div>
-        <img src="http://flipnote.hatena.com/images/ds/theme/camp100618/foot.ntft" width="218" height="5">
+        <img src="http://flipnote.hatena.com/images/ds/theme/{{THEME_FOLDER_NAME}}/foot.ntft" width="218" height="5">
     </div>
     <div class="send" align="center">
         <a href="http://flipnote.hatena.com/ds/v2-eu/user/movies.uls">
-            <img src="http://flipnote.hatena.com/images/en-gb/ds/theme/camp100618/send.ntft" width="218" height="32" class="button">
+            <img src="http://flipnote.hatena.com/images/en-gb/ds/theme/{{THEME_FOLDER_NAME}}/send.ntft" width="218" height="32" class="button">
         </a>
         <div align="right">
-            <a href="http://flipnote.hatena.com/ds/v2-eu/96FAD88031C49DE1/movies.uls">See more</a>
+            <a href="http://flipnote.hatena.com/ds/v2-eu/{{FLIPNOTE_STUDIO_ID}}/movies.uls">See more</a>
         </div>
     </div>
     <table width="226" border="0" cellspacing="0" cellpadding="0" class="detail">
@@ -73,7 +76,7 @@
                 <div class="item-term" align="left">Posted Comments</div>
             </th>
             <td width="146">
-                <div class="item-value" align="right">329</div>
+                <div class="item-value" align="right">{{USER_POSTED_COMMENTS_TOTAL}}</div>
             </td>
         </tr>
         <tr>
@@ -87,7 +90,7 @@
             </th>
             <td width="146">
                 <div class="item-value" align="right">
-                    <a href="http://flipnote.hatena.com/ds/v2-eu/96FAD88031C49DE1/favorite/movies.uls">142</a>
+                    <a href="http://flipnote.hatena.com/ds/v2-eu/{{FLIPNOTE_STUDIO_ID}}/favorite/movies.uls">142</a>
                 </div>
             </td>
         </tr>
@@ -102,7 +105,7 @@
             </th>
             <td width="146">
                 <div class="item-value" align="right">
-                    <a href="http://flipnote.hatena.com/ds/v2-eu/96FAD88031C49DE1/favorite/authors.uls">118 People</a>
+                    <a href="http://flipnote.hatena.com/ds/v2-eu/{{FLIPNOTE_STUDIO_ID}}/favorite/authors.uls">{{USER_FAVORITE_USERS_TOTAL}} People</a>
                 </div>
             </td>
         </tr>
@@ -117,7 +120,7 @@
             </th>
             <td width="146">
                 <div class="item-value" align="right">
-                    <a href="http://flipnote.hatena.com/ds/v2-eu/96FAD88031C49DE1/channels.uls?type=owned">9</a>
+                    <a href="http://flipnote.hatena.com/ds/v2-eu/{{FLIPNOTE_STUDIO_ID}}/channels.uls?type=owned">{{USER_CHANNELS_CREATED_TOTAL}}</a>
                 </div>
             </td>
         </tr>
@@ -132,7 +135,7 @@
             </th>
             <td width="146">
                 <div class="item-value" align="right">
-                    <a href="http://ugomemo.hatena.ne.jp/ds/v2-eu/96FAD88031C49DE1/channels.uls">35</a>
+                    <a href="http://ugomemo.hatena.ne.jp/ds/v2-eu/{{FLIPNOTE_STUDIO_ID}}/channels.uls"{{USER_CHANNELS_FAVORITE_TOTAL}}></a>
                 </div>
             </td>
         </tr>
@@ -145,7 +148,7 @@
     <div class="pad5t"></div>
     <div class="notice2">
         <div align="left">
-            <img src="http://flipnote.hatena.com/images/ds/key.ntft" width="10" height="12"> Flipnote Hatena's Flipnote Friends
+            <img src="http://flipnote.hatena.com/images/ds/key.ntft" width="10" height="12"> {{USERNAME}}'s Flipnote Friends
         </div>
         <div align="right">
             <a href="http://flipnote.hatena.com/ds/v2-eu/friends.uls">5 People</a>
@@ -165,14 +168,14 @@
             <tr>
                 <td width="50">
                     <div class="icon" width="50">
-                        <a href="http://ugomemo.hatena.ne.jp/ds/v2-eu/96FAD88031C49DE1/profile.htm?mode=edit">
-                            <img src="http://flipnote.hatena.com/images/ds/theme/camp100618/item.ntft" width="48" height="48">
+                        <a href="http://ugomemo.hatena.ne.jp/ds/v2-eu/{{FLIPNOTE_STUDIO_ID}}/profile.htm?mode=edit">
+                            <img src="http://flipnote.hatena.com/images/ds/theme/{{THEME_FOLDER_NAME}}/item.ntft" width="48" height="48">
                         </a>
                     </div>
                 </td>
                 <td width="3"></td>
                 <td>Current Theme<br>
-                    <a href="http://ugomemo.hatena.ne.jp/ds/v2-eu/96FAD88031C49DE1/profile.htm?mode=edit">Change</a>
+                    <a href="http://ugomemo.hatena.ne.jp/ds/v2-eu/{{FLIPNOTE_STUDIO_ID}}/profile.htm?mode=edit">Change</a>
                 </td>
             </tr>
         </table>
