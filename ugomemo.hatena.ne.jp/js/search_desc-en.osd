@@ -1,0 +1,12 @@
+<OpenSearchDescription
+    xmlns="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Flipnote Search</ShortName>
+  <Description>Find exactly what you're looking for with Flipnote Search!</Description>
+  <InputEncoding>utf-8</InputEncoding>
+  <Image width="16" height="16">http://ugomemo.hatena.ne.jp/images/favicon.gif</Image>
+  <Url type="text/html" method="get" template="http://ugotest2.hatena.com/search?word={searchTerms}"/>
+  <Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?qu={searchTerms}"/>
+  <feed refresh-interval="36000" refresh-onclick="true">http://ugotest2.hatena.com/ranking/daily.rss</feed>
+  <moz:SearchForm>http://ugotest2.hatena.com/search</moz:SearchForm>
+</OpenSearchDescription>
