@@ -7,7 +7,6 @@ let top = _____WB$wombat$assign$function_____("top");
 let parent = _____WB$wombat$assign$function_____("parent");
 let frames = _____WB$wombat$assign$function_____("frames");
 let opener = _____WB$wombat$assign$function_____("opener");
-/* Not the original file!  Don't edit! */
 
 Ten.Browser.isIE6 = navigator.userAgent.indexOf('MSIE 6.') != -1;
 Ten.Browser.isIE7 = navigator.userAgent.indexOf('MSIE 7.') != -1;
