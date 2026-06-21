@@ -1,0 +1,29 @@
+body.en div#intro {
+background:transparent url(/web/20100901015112im_/http://ugomemo.hatena.ne.jp/images/en/index-intro-bg.png) no-repeat scroll 0 0;
+height:117px;
+}
+
+ul.profileimglist li label.thumb-container:hover span.selecter {
+  background-image: url(/web/20100901015112im_/http://ugomemo.hatena.ne.jp/images/en/selecter-hover.gif);
+}
+
+/*
+     FILE ARCHIVED ON 01:51:12 Sep 01, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:14:25 Jun 21, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.531
+  exclusion.robots: 0.043
+  exclusion.robots.policy: 0.032
+  esindex: 0.01
+  cdx.remote: 8.445
+  LoadShardBlock: 90.666 (3)
+  PetaboxLoader3.datanode: 100.205 (4)
+  PetaboxLoader3.resolve: 59.663 (2)
+  load_resource: 103.308
+*/
